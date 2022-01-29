@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: test.TestAbc
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in test.TestAbc
+test.TestAbc.myFirstTest  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: message thong báo lỗi ==> expected: <2> but was: <1>
+	at test.TestAbc.myFirstTest(TestAbc.java:30)
+

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: test.StandardTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 1, Skipped: 2, Time elapsed: 0.04 s <<< FAILURE! - in test.StandardTests
+test.StandardTests.failingTest1  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <2>
+	at test.StandardTests.failingTest1(StandardTests.java:53)
+
+test.StandardTests.failingTest2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: a failing test
+	at test.StandardTests.failingTest2(StandardTests.java:62)
+
+test.StandardTests.errorTest1  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at test.StandardTests.errorTest1(StandardTests.java:71)
+
